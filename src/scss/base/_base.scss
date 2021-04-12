@@ -1,0 +1,98 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+button,input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  color: $white;
+  background-color: $dark-purple;
+  font-family: 'Open Sans', sans-serif;
+  background-size: cover;
+  background-position:top center;
+  background-image: url('./assets/images/content-area-bg.jpg');
+}
+
+#be-epic-wrapper{
+  position: relative;
+  transition-duration: 0.5s;
+  left:0;
+  &.is-active{
+    overflow: hidden;
+  }
+  @include media-breakpoint-up(md) {
+    &.is-active{
+      left: 33%;
+    }
+  }
+}
+
+.section-block{
+  margin-left:78px;
+  position: relative;
+  @include media-breakpoint-down(sm) {
+    margin-left:0;
+  }
+}
+.content-container{
+  margin-left:0;
+  padding-left:130px;
+  position: relative;
+  @include media-breakpoint-down(md) {
+    padding-left:50px;
+  }
+  @include media-breakpoint-down(sm) {
+    padding-left:15px;
+  }
+  &.on-hero{
+    position: absolute;
+    bottom: 5%;
+    left: initial;
+  }
+}
+
+.section-date-label{
+  transform: rotate( -90deg ) translateY(-50%);
+  display: inline-block;
+  transform-origin: left;
+  left: auto;
+  bottom: 50%;
+  position: absolute;
+  text-shadow: 0 0 4px #fff;
+  span{
+    font-weight: bold;
+  }
+  @include media-breakpoint-down(sm) {
+    transform: none;
+    left: 0;
+    top: 10px;
+    padding: 15px;
+  }
+}
+
+// Bonus
+.list-page-header{
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0311a529-e171-4fea-bfe7-425f7001596f/defxl3d-581cbd2c-75c6-4b78-a803-f47e9b029c9c.png/v1/fill/w_1024,h_513,q_80,strp/peaceful_place_by_avryb_defxl3d-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01MTMiLCJwYXRoIjoiXC9mXC8wMzExYTUyOS1lMTcxLTRmZWEtYmZlNy00MjVmNzAwMTU5NmZcL2RlZnhsM2QtNTgxY2JkMmMtNzVjNi00Yjc4LWE4MDMtZjQ3ZTliMDI5YzljLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xev_RjMeJJCIEMni9BtvnC7mvHUqZTN8KjvZmBgWK4w');
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 15px #000;
+  height: 80vh;
+  width: 100%;
+  h1{
+    position: absolute;
+    bottom: 0px;
+    left: 130px;
+  }
+  &.benderRick{
+    h1{
+      text-shadow: 0 0 15px #fff;
+    }
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/612/404/904/tv-show-crossover-bender-futurama-futurama-rick-sanchez-hd-wallpaper-preview.jpg');
+  }
+}

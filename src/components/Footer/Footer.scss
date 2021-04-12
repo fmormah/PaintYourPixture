@@ -1,0 +1,46 @@
+footer{
+    h3{
+        font-weight: normal;
+    }
+    position: relative;
+    .upper-footer{
+        position: relative;
+        height: 600px;
+        background-image: url('./assets/images/home-bg2-desktop.jpg');
+        @include media-breakpoint-down(sm) {
+            height: 300px;
+            background-image: url('./assets/images/home-bg2-mobile.jpg');
+        }
+    }
+
+    .upper-footer-copy{
+        display: inline-block;
+        text-align: left;
+        position: absolute;
+        width: 40%;
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: 0 0 30px #000;
+        @include media-breakpoint-down(md) {
+            transform: translateY(-50%);
+            width: 100%;
+            position: relative;
+            padding: 15px;
+            left: 0;
+        }
+    }
+    .bottom-footer{
+        background-color: $dark-purple;
+    }
+
+    ul{
+        padding:0;
+        list-style: none;
+        font-size: 13px;
+        li{
+            margin-bottom:10px;
+        }
+    }
+}
+

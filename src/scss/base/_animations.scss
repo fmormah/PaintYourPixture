@@ -1,0 +1,45 @@
+// --------------------------------------------------------------------------------
+// This file contains animations that may be used more than once on non-specific elements
+// ---------------------------------------------------------------------------------
+
+@keyframes bounce-90 {
+    0%   { transform: scale(1,1)   rotate(90deg)   translateY(0);  }
+    10%  { transform: scale(1.1,.9) rotate(90deg)  translateY(0); }
+    30%  { transform: scale(.9,1.1)  rotate(90deg) translateY(-18px); }
+    50%  { transform: scale(1.05,.95) rotate(90deg) translateY(0); }
+    64%  { transform: scale(1,1)  rotate(90deg)    translateY(0); }
+    100% { transform: scale(1,1)  rotate(90deg)    translateY(0); }
+}
+.bounce-90{
+    animation: bounce-90 1s ease-in infinite;
+}
+/*--*/
+
+
+@keyframes pulse{
+    25%  {transform: scale(0.9);}
+    75%  {transform: scale(1.1);}
+}
+.pulse-anim{
+    animation: pulse 0.5s ease-in infinite;
+}
+
+/*--*/
+
+@keyframes push{
+    50%  {transform: scale(0.8);}
+}
+.push-anim{
+    animation: pulse 0.3s linear 1;
+}
+
+/*--*/
+
+@keyframes pop{
+    50%  {transform: scale(1.2);}
+}
+.pop-anim{
+    animation: pop 0.3s linear 1;
+}
+
+/*--*/

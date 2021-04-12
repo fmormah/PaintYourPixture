@@ -1,0 +1,62 @@
+/**
+ * Basic typography style for copy text
+ */
+
+h1,.h1,h2,.h2,h1,.h1,h3,.h3{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 90px;
+  margin: 0;
+  @include media-breakpoint-down(md) {
+    font-size: 50px;
+    line-height: 55px;
+  }
+}
+
+h2,.h2{
+  font-size: 22px;
+  line-height: 31px;
+  @include media-breakpoint-down(sm) {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+h3,.h3{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+p,.p{
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.text-white{
+  color:$white;
+}
+.text-blue{
+  color:$blue;
+}
+.text-dark-blue{
+  color:$dark-blue;
+}
+.text-purple{
+  color:$purple;
+}
+.text-grey{
+  color:$grey;
+}
+.text-black{
+  color:$black;
+}
+.text-red{
+  color:$red;
+}
+.text-dark-purple{
+  color:$dark-purple;
+}
+
+.text-off-purple{
+  color:#251635;
+}

@@ -1,0 +1,65 @@
+#Nav-C{
+    position: fixed;
+    z-index: 2;
+    height: 10vh;
+    width: 33%;
+    left: calc(-33% + 78px);
+    top: 0;
+    padding-top:15px;
+    transition-duration: 0.5s;
+    transition-property: left;
+    text-align: center;
+    background: linear-gradient(to bottom, $dark-purple 20%,rgba(0,0,0,0) 70%);
+    
+    .hamburger{
+        z-index: 10;
+        padding: 15px 19px 50px;
+        position: absolute;
+        top:0;
+        right:0;
+        transition-duration: 0.5s;
+        transition-property: all;
+        border-bottom-right-radius: 50px;
+        background: linear-gradient(to bottom, $dark-purple 60%,rgba(0,0,0,0) 100%);
+        @include media-breakpoint-down(sm) {
+            padding: 19px;
+            background:$dark-purple;
+        }
+        .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+            background-color: $white;
+            border-radius: 3px;
+        }
+        &.is-active{
+            top:20px;
+            padding: 15px 19px 15px;
+            background: transparent;
+        }
+    }
+    .nav-logo{
+        width: 80px;
+        margin:15px auto;
+        display: block;
+        
+    }
+    .nav-list{
+        padding:0;
+        position: relative;
+        z-index: 1;
+        li{
+            list-style: none;
+            display: block;
+            opacity: 0;
+        }
+    }
+    &.is-active{
+        height: 100vh;
+        left:0;
+        background: $dark-purple;
+        .nav-list li{
+            opacity: 1;
+        }
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+        }
+    }
+}

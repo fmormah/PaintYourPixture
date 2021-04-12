@@ -1,0 +1,33 @@
+.Articles-Card-C.big{
+    padding-right: 0;
+    .articles-card-hero{
+        height: 90vh;
+        &::after{
+            border-width:2em 0 2em 2em;
+        }
+    }
+    .full-article{
+        position: relative;
+        &::before {
+            content: "";
+            background: #130327;
+            height: 5px;
+            width: calc(100% - 30px);
+            position: absolute;
+            top:20px;
+        }
+        p:first-child {
+            padding-top:75px;
+        }
+    }
+    &:hover{
+        top:0px;
+        transform: scale(1);
+    } 
+    .articles-card-panel {
+        height: auto;
+        &:after {
+            display: none;
+        }
+    }
+}

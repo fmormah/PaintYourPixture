@@ -1,0 +1,43 @@
+// --------------------------------------------------------------------------------
+// This file contains css for elements the user interacts with that may be used more than once on non-specific elements
+// ---------------------------------------------------------------------------------
+
+.a-1{
+    transition-duration: 0.3s;
+    color:$white;
+    border-bottom:1px solid transparent;
+    text-decoration: none;
+    padding-bottom:1px;
+    display: inline-block;
+    &:hover{
+        text-decoration: none;
+        color:$white;
+        border-bottom:1px solid $white;
+    }
+}
+
+.a-2{
+    transition-duration: 0.3s;
+    color:$dark-blue;
+    border-bottom:1px solid transparent;
+    text-decoration: none;
+    padding-bottom:1px;
+    display: inline-block;
+    &:hover{
+        text-decoration: none;
+        color:$dark-blue;
+        border-bottom:1px solid $dark-blue;
+    }
+}
+
+.img-btn{
+    background-color: transparent;
+    border:none;
+    transition-duration: 0.3s;
+    opacity: 1;
+    display: inline-block;
+    vertical-align: bottom;
+    &:hover{
+        opacity: 0.6;
+    }
+}
