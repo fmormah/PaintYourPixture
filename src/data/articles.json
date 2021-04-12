@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "someUrl1.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/1.jpg",
     "title": "Decayed",
     "comments": 917,
     "likes": 609,
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "img": "someUrl2.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/2.jpg",
     "title": "Andalusian Hound",
     "comments": 55,
     "likes": 844,
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "img": "someUrl3.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/3.jpg",
     "title": "Bull Arab",
     "comments": 916,
     "likes": 28,
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "img": "someUrl4.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/4.jpg",
     "title": "Bully Kutta",
     "comments": 554,
     "likes": 940,
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "img": "someUrl5.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/5.jpg",
     "title": "Chow Chow",
     "comments": 311,
     "likes": 542,
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "img": "someUrl6.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/6.jpg",
     "title": "Halden Hound",
     "comments": 964,
     "likes": 99,
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "img": "someUrl7.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/7.jpg",
     "title": "Cursinu",
     "comments": 504,
     "likes": 961,
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "img": "someUrl8.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/8.jpg",
     "title": "Husky",
     "comments": 147,
     "likes": 514,
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "img": "someUrl9.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/9.jpg",
     "title": "Dingo",
     "comments": 431,
     "likes": 267,
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "img": "someUrl10.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/10.jpg",
     "title": "Border Collie",
     "comments": 653,
     "likes": 187,
@@ -91,7 +91,7 @@
   },
   {
     "id": 11,
-    "img": "someUrl11.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/11.jpg",
     "title": "Bohemian Shepherd",
     "comments": 712,
     "likes": 56,
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "img": "someUrl12.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/12.jpg",
     "title": "Black Mouth Cur",
     "comments": 562,
     "likes": 406,
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "img": "someUrl13.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/13.jpg",
     "title": "Bedlington Terrier",
     "comments": 288,
     "likes": 288,
@@ -118,7 +118,7 @@
   },
   {
     "id": 14,
-    "img": "someUrl14.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/14.jpg",
     "title": "Basset Hound",
     "comments": 132,
     "likes": 204,
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "img": "someUrl15.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/15.jpg",
     "title": "Banjara Hound",
     "comments": 946,
     "likes": 986,
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "img": "someUrl16.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/16.jpg",
     "title": "Australian Terrier",
     "comments": 599,
     "likes": 335,
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "img": "someUrl17.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/17.jpg",
     "title": "Armenian Gampr dog",
     "comments": 540,
     "likes": 859,
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "img": "someUrl18.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/18.jpg",
     "title": "Alopekis",
     "comments": 789,
     "likes": 205,
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "img": "someUrl19.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/19.jpg",
     "title": "Akita",
     "comments": 125,
     "likes": 122,
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "img": "someUrl20.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/20.jpg",
     "title": "Bulldog",
     "comments": 784,
     "likes": 726,
