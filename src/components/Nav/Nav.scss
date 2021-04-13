@@ -1,6 +1,6 @@
 #Nav-C{
     position: fixed;
-    z-index: 2;
+    z-index: 12;
     height: 10vh;
     width: 33%;
     left: calc(-33% + 78px);
@@ -55,6 +55,7 @@
         height: 100vh;
         left:0;
         background: $dark-purple;
+        z-index: 10;
         .nav-list li{
             opacity: 1;
         }

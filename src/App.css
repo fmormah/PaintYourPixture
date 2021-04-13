@@ -8545,6 +8545,9 @@ body {
     position: absolute;
     bottom: 0px;
     left: 130px; }
+    @media (max-width: 767.98px) {
+      .list-page-header h1 {
+        left: 30px; } }
   .list-page-header.benderRick {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/612/404/904/tv-show-crossover-bender-futurama-futurama-rick-sanchez-hd-wallpaper-preview.jpg"); }
     .list-page-header.benderRick h1 {
@@ -9368,7 +9371,7 @@ p, .p {
 
 #Nav-C {
   position: fixed;
-  z-index: 2;
+  z-index: 12;
   height: 10vh;
   width: 33%;
   left: calc(-33% + 78px);
@@ -9414,7 +9417,8 @@ p, .p {
   #Nav-C.is-active {
     height: 100vh;
     left: 0;
-    background: #130327; }
+    background: #130327;
+    z-index: 10; }
     #Nav-C.is-active .nav-list li {
       opacity: 1; }
     @media (max-width: 767.98px) {
@@ -9433,6 +9437,7 @@ footer {
     @media (max-width: 767.98px) {
       footer .upper-footer {
         height: 300px;
+        background-attachment: unset;
         background-image: url("./assets/images/home-bg2-mobile.jpg"); } }
   footer .upper-footer-copy {
     display: inline-block;
