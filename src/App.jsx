@@ -30,7 +30,7 @@ const App = (props) => {
   });
 
   const getArticles = () => {
-    if(props.testing === void(0)){
+    if(props.testing !== void(0)){
       return;
     } 
     fetch(mockAPI)
