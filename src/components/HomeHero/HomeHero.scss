@@ -4,6 +4,7 @@
   background-size: cover;
   background-position:center;
   text-shadow: 0 0 20px #000;
+  background-attachment: fixed;
   @include media-breakpoint-down(sm) {
     background-image: url('./assets/images/home-bg-mobile.jpg');
   }

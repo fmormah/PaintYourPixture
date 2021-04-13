@@ -66,6 +66,7 @@ const App = (props) => {
                 <Route exact path='/liked-articles' component={() => <ArticleCardsPage />} />
                 <Route component={NoMatch} />
               </Switch>
+              
             </CSSTransition>
           </TransitionGroup>
           <Footer />
