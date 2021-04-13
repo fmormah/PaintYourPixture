@@ -12,6 +12,11 @@
 
 - `slick-carousel` - To help achieve the caoursels
 
+### Note
+
+- I had considered using `redux` to achieve certain features, however, given what was asked and going over `redux` implementation reccomendations, it seemed like over-kill and did not want to overly complicate the solution.
+
+
 ### Extras
 
 - I've implemented 3 extra pages. One to display all articles in a grid layout, another only liked articles in a grid layout and a final faux 404 page
