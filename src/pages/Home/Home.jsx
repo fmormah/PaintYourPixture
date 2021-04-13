@@ -3,7 +3,7 @@ import React from 'react';
 import HomeHero from '../../components/HomeHero/HomeHero';
 import ArticleSlider from '../../components/ArticleSlider/ArticleSlider';
 
-const Home = () => {
+const Home = (props) => {
 
   // Side Menu Items Array
   const sideMenuItems = [
@@ -34,10 +34,10 @@ const Home = () => {
       </HomeHero>
 
       {/* Article Slider 1 */}
-      <ArticleSlider  header="Title Lorem" className="mb-5"/>
+      <ArticleSlider articles={props.articles}  header="Pictures Worth Seeing" className="mb-5"/>
 
       {/* Copy content 1 */}
-      <section className="section-block mb-5 mt-5 pt-5 pb-5">
+      <section  className="section-block mb-5 mt-5 pt-5 pb-5">
         <div className="section-date-label">
           <p>
             <span className="text-dark-blue">29th</span> September 2009
@@ -90,7 +90,7 @@ const Home = () => {
       </section>
 
       {/* Article Slider 2 */}
-      <ArticleSlider  header="Title Lorem" className="mb-5"/>
+      <ArticleSlider articles={props.articles} header="Articles Worth Reading" className="mb-5"/>
 
       {/* Copy content 2 */}
       <section className="section-block mb-5 mt-5 pt-5 pb-5">

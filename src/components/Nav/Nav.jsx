@@ -1,10 +1,8 @@
 //Build Helpers
 import React, { useState, useEffect} from 'react';
 
-
 //images
 import logo from '../../assets/images/logo.png';
-
 
 const Nav = (props) => {
 
@@ -13,7 +11,10 @@ const Nav = (props) => {
 
   useEffect(()=>{
     isMenuActive === true ? setMenuActiveClass('is-active') : setMenuActiveClass('not-active');
-    document.getElementById('be-epic-wrapper').className = menuActiveClass;
+    let wrapper = document.getElementById("be-epic-wrapper");
+    if(wrapper != null){
+      wrapper.className = menuActiveClass;
+    }
   });
 
   const toggleMenu=()=>{
@@ -21,7 +22,7 @@ const Nav = (props) => {
   }
 
   return (
-    <nav id="Nav-C" className={menuActiveClass}>
+    <nav id="Nav-C" className={`nvc ${menuActiveClass}`}>
       
       {/* Burger Menu  */}
       <button id="nav-menu-toggler" aria-pressed={isMenuActive} onClick={()=>{toggleMenu();}} className={`hamburger hamburger--spin ${menuActiveClass}`} type="button">
@@ -48,8 +49,8 @@ const Nav = (props) => {
           </a>
         </li>
         <li>
-          <a aria-label="favoured articles link" className="a-1 text-center mt-3" href="/favoured-articles">
-            Favoured Articles
+          <a aria-label="liked articles link" className="a-1 text-center mt-3" href="/liked-articles">
+            liked Articles
           </a>
         </li>
       </ul>

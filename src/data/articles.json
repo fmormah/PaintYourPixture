@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/9.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/9.png",
     "title": "Dingo",
     "comments": 431,
     "likes": 267,
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/16.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/16.png",
     "title": "Australian Terrier",
     "comments": 599,
     "likes": 335,
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/17.jpg",
+    "img": "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/img/17.png",
     "title": "Armenian Gampr dog",
     "comments": 540,
     "likes": 859,

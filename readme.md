@@ -1,4 +1,29 @@
-# Unreal Cloud Services Web Frontend Test
+## Overview
+
+### Dependencies
+
+- `boostrap` - Complimented with scss using `node-sass` for watching. After looking at other sites from Epic games, I noticed Boostrap seemed to be a common used tool. So I chose to follow this.
+
+- `hamburgers` - For a a fast and well animated burger menu solution
+
+- `react-html-parser` - I noticed the JSON had backed-in innerhtml which, as the tool suggests, needed parsing into JSX.
+
+- `react-router` - For routing back and forth between pages using `react-transition-group` for transitions
+
+- `slick-carousel` - To help achieve the caoursels
+
+### Extras
+
+- I've implemented 3 extra pages. One to display all articles in a grid layout, another only liked articles in a grid layout and a final faux 404 page
+
+- I've extended the original contents of the JSON file to mostly for testing purposes.
+
+
+
+
+
+
+## Unreal Cloud Services Web Frontend Test
 
 Create a starter app with [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html), it should run with `yarn run start` and be accessable in a browser at http://localhost:3000
 
