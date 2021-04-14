@@ -50,10 +50,10 @@ body{
   }
 }
 .content-container{
-  margin-left:0;
-  padding-left:130px;
+  margin-left:15%;
   position: relative;
   @include media-breakpoint-down(md) {
+    margin-left:0;
     padding-left:50px;
   }
   @include media-breakpoint-down(sm) {
