@@ -9235,6 +9235,9 @@ body {
   top: 50%;
   left: 50%;
   transform: scale(2) translate(-50%, -50%); }
+  @media (max-width: 767.98px) {
+    .lds-dual-ring {
+      transform: scale(1) translate(-50%, -50%); } }
 
 .lds-dual-ring:after {
   content: " ";
