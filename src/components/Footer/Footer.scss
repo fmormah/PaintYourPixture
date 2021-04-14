@@ -8,6 +8,7 @@ footer{
         height: 600px;
         background-attachment: fixed;
         background-image: url('./assets/images/home-bg2-desktop.jpg');
+        background-size: cover;
         @include media-breakpoint-down(sm) {
             height: 300px;
             background-attachment: unset;
