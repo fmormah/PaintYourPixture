@@ -7,22 +7,18 @@ import logo from '../../assets/images/logo.png';
 
 const HomeHero = (props) => {
 
-  const [didMount, setMount] = useState(false);
   const [sideMenuActiveClass, setSideMenuActiveClass] = useState('active');
   const sideMenuFadeThresholdY = 100;
 
   useEffect(() => {
-    if (didMount === false) {
-      setMount(true);
-      window.addEventListener('scroll', function(e) {
-        if(window.scrollY > sideMenuFadeThresholdY){
-          setSideMenuActiveClass('inactive');
-        }else{
-          setSideMenuActiveClass('active');
-        }
-      });
-    }
-  });
+    window.addEventListener('scroll', function(e) {
+      if(window.scrollY > sideMenuFadeThresholdY){
+        setSideMenuActiveClass('inactive');
+      }else{
+        setSideMenuActiveClass('active');
+      }
+    });
+  },[]);
 
   return (
     <header className={`section-block ${props.className}`}>

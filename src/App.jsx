@@ -19,15 +19,11 @@ const App = (props) => {
 
   const [articles, setArticles] = useState([]);
   const [fetchedArticles,setFetchedArticles] = useState(false);
-  const [didMount, setMount] = useState(false);
   const mockAPI = "https://raw.githubusercontent.com/fmormah/PaintYourPixture/master/src/data/articles.json";
 
   useEffect(() => {
-    if(didMount === false){
-      setMount(true);
-      getArticles();
-    }
-  });
+    getArticles();
+  },[]);
 
   const getArticles = () => {
     if(props.testing !== void(0)){
