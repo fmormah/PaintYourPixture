@@ -5,6 +5,9 @@
     overflow: hidden;
     top:0;
     transition-duration: 0.3s;
+    @include media-breakpoint-down(sm) {
+        padding-right:0px;
+    }
     .articles-card-hero{
         background-position: center top;
         background-size: cover;

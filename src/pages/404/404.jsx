@@ -3,7 +3,7 @@ import React from 'react';
 
 const Standard = (props) => {
   return (
-    <div>
+    <div className="list-page">
       <div className="content-container list-page-header benderRick">
         <h1 className="mb-5 pb-5">
           404
